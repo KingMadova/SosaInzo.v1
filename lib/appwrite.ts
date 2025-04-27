@@ -9,8 +9,6 @@ export const config = {
   apiKey: process.env.EXPO_PUBLIC_APPWRITE_API_KEY // Ajoutez la clé API ici
 };
 
-console.log("Appwrite API Key:", process.env.EXPO_PUBLIC_APPWRITE_API_KEY);
-
 export const client = new Client();
 
 client
